@@ -1,0 +1,6 @@
+{
+  "name": "Battle India",
+  "description": "AAA tactical battle royale game featuring authentic India landscapes, competitive matchmaking, living squad lobby, dynamic safe zones, and high-octane combat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

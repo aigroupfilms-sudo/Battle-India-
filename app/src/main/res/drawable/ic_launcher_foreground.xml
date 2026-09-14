@@ -1,0 +1,75 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Tactical Target Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#40FF6D00"
+        android:strokeWidth="1.5"
+        android:pathData="M54,28 A26,26 0 1,0 54,80 A26,26 0 1,0 54,28 Z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#80FF9100"
+        android:strokeWidth="1.2"
+        android:pathData="M54,24 L54,32 M54,76 L54,84 M24,54 L32,54 M76,54 L84,54" />
+
+    <!-- Tactical Combat Helmet Shell -->
+    <path
+        android:pathData="M35,46 C35,35 43,30 54,30 C65,30 73,35 73,46 C73,50 71,53 69,55 L71,60 C71,62 69,64 67,64 L65,64 L63,68 L45,68 L43,64 L41,64 C39,64 37,62 37,60 L39,55 C37,53 35,50 35,46 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="35"
+                android:startY="30"
+                android:endX="73"
+                android:endY="68"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF7043" />
+                <item android:offset="0.5" android:color="#E64A19" />
+                <item android:offset="1.0" android:color="#BF360C" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Helmet Brow Plate & Ridge -->
+    <path
+        android:fillColor="#FFB74D"
+        android:pathData="M40,43 L68,43 L66,40 L42,40 Z" />
+
+    <!-- Night Vision / Tactical Goggles Visor (Glowing Amber/Cyan) -->
+    <path
+        android:pathData="M41,47 L67,47 L65,54 L43,54 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="41"
+                android:startY="47"
+                android:endX="67"
+                android:endY="54"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00E5FF" />
+                <item android:offset="0.4" android:color="#FFD600" />
+                <item android:offset="1.0" android:color="#FF6D00" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Face Shield Mask & Gas Respirator details -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M47,56 L61,56 L59,65 L49,65 Z" />
+    <path
+        android:fillColor="#FF9100"
+        android:pathData="M51,58 L57,58 L56,63 L52,63 Z" />
+
+    <!-- Indian Tricolor Chevron Badge at Chin -->
+    <path android:fillColor="#FF9933" android:pathData="M48,69 L60,69 L59,71 L49,71 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M49,71 L59,71 L58,73 L50,73 Z" />
+    <path android:fillColor="#138808" android:pathData="M50,73 L58,73 L57,75 L51,75 Z" />
+
+    <!-- Crosshair pip -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M53,50 L55,50 L55,52 L53,52 Z" />
+</vector>
